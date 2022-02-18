@@ -1,0 +1,30 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: $body-main-color;
+}
+
+footer {
+  background-color: $main-background-color;
+}
+
+.button {
+  border: 4px transparent;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}

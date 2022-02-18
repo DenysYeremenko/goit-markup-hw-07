@@ -1,0 +1,73 @@
+.command-section {
+  background-color: $secondary-background-color;
+}
+
+.command-title {
+  margin: 0 auto 50px auto;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.command-list {
+  justify-content: space-between;
+}
+
+.command-list__item {
+  padding-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+}
+
+.command-list__name {
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.command-list__position {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: $third-priority-color;
+}
+
+.command-list__link-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 206px;
+  height: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+}
+
+.command-list__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  fill: $icon-color;
+  border-radius: 50%;
+  transition-property: background-color fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.command-list__link {
+  &:hover,
+  &:focus {
+    background-color: $main-hover-color;
+    fill: $secondary-text-color;
+  }
+}
